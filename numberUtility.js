@@ -1,4 +1,4 @@
-function isPrime(val)
+const  isPrime = (val) =>
 {
     let flag=1
     for(let i=2;i<val;i++)
@@ -12,7 +12,7 @@ function isPrime(val)
     return flag
 }
 
-function isArmstrong(val)
+const isArmstrong  = (val) =>
 {
     let temp=val;
     let sum=0;
